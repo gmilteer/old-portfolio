@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Noto Sans", sans-serif;
+  background-image: linear-gradient(to right, #208a2c, #d8f4d9);
+}
+#navBar {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.navbar {
+  background-image: linear-gradient(to right, #208a2c, #d8f4d9);
+  color: white;
+  font-family: "Poiret One", cursive;
+}
+
+.navbar-nav a {
+  color: white !important;
+  float: right;
+  text-align: left;
+  font-family: "Noto Sans", sans-serif;
+}
+
+.navbar-nav a:hover {
+  color: #208a2c !important;
+  transition-delay: 100ms;
+}
+
+.navbar-toggler {
+  outline: none !important;
+  border: none !important;
+}
+#promo-title1 {
+  font-size: 60px;
+  font-weight: 330;
+  margin-top: 250px;
+}
+
+#promo-title2 {
+  font-size: 60px;
+  font-weight: 330;
+  margin-top: 20px;
+}
+
+#introPage {
+  background-image: linear-gradient(to right, #208a2c, #d8f4d9);
+  color: white;
+  line-height: 50px;
+  height: 100vh;
+}
+#bio {
+  color: rgb(0, 72, 255);
+}
+#name {
+  color: rgb(0, 72, 255);
+}
+.card-body:hover {
+  opacity: 0.3;
+  color: rgb(0, 72, 255) !important;
+  text-decoration: none !important;
+}
+
+.learn-more-btn {
+  border-radius: 2px;
+  font-size: 2rem;
+  width: 300px;
+  color: white;
+  box-shadow: none;
+  border: 3px solid white;
+  margin-top: 25px;
+}
+
+.learn-more-btn:hover {
+  background-color: #208a2c;
+  transition-delay: 100ms;
+  border: 3px solid #208a2c;
+  box-shadow: none;
+  outline: none;
+}
+.col-md-8 {
+  padding-top: 75px;
+}
+.social-icons {
+  font-size: 2.8rem;
+  transition: 0.5s;
+  color: white;
+  margin: 10px 0;
+  padding: 0 15px;
+}
+
+.lead {
+  font-size: 1.8rem;
+  line-height: 2.5rem;
+  margin: 45px 0;
+}
+.social-icons:hover {
+  transform: translateY(-10px);
+  color: #208a2c;
+}
+
+#footer {
+  background-image: linear-gradient(to right, #208a2c, #d8f4d9);
+  color: white;
+}
+
+.footer-box {
+  padding: 20px;
+}
